@@ -32,15 +32,24 @@ ceramic.did = did
 const model = new DataModel({ ceramic, model: modelAliases })
 const store = new DIDDataStore({ ceramic, model })
 
-
+// exampleNote and newNotes are schemas in the model
 const exampleNote = await model.loadTile('exampleNote')
-console.log("~~~~exampleNote~~~~~")
-console.log(exampleNote)
+// console.log("~~~~exampleNote~~~~~")
+// console.log(exampleNote)
 
 const newNote = await model.createTile('SimpleNote', { text: 'My new note' })
-console.log("~~~~newNote~~~~~")
-console.log(newNote)
+// console.log("~~~~newNote~~~~~")
+// console.log(newNote)
+
 
 await store.set('myNote', { text: 'This is my note' })
 
-await store.get('myNote')
+await store.set('myNote', { text: 'hhhhhh' })
+
+const res = await store.get('myNote')
+
+console.log(res)
+
+
+
+
