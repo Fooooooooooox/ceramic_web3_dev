@@ -1,0 +1,1 @@
+module.exports = function isDefined(obj){return !(obj===null || typeof obj === 'undefined');};

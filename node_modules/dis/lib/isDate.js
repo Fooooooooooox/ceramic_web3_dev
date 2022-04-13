@@ -1,0 +1,1 @@
+module.exports = function isDate(obj){return obj instanceof Date;}

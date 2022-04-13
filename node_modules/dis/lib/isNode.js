@@ -1,0 +1,1 @@
+module.exports = function isNode(obj){return !!(obj && obj.nodeType == 1);};

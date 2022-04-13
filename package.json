@@ -1,0 +1,26 @@
+{
+  "name": "test_ceramic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ceramicnetwork/3id-did-resolver": "^1.4.16",
+    "@ceramicnetwork/http-client": "^1.5.7",
+    "@ceramicnetwork/stream-tile": "^1.5.7",
+    "@glazed/datamodel": "^0.2.0",
+    "@glazed/devtools": "^0.1.6",
+    "@glazed/did-datastore": "^0.2.3",
+    "dids": "^2.4.3",
+    "dis": "^0.3.7",
+    "key-did-provider-ed25519": "^1.1.0",
+    "key-did-resolver": "^1.4.4",
+    "ts-node": "^10.7.0",
+    "uint8arrays": "^3.0.0"
+  }
+}

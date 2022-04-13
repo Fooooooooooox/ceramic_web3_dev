@@ -1,0 +1,1 @@
+module.exports = function isInteger(obj){return !isNaN(obj) && parseInt(obj) == obj;};
