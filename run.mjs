@@ -49,7 +49,3 @@ await store.set('myNote', { text: 'hhhhhh' })
 const res = await store.get('myNote')
 
 console.log(res)
-
-
-
-
